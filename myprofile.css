@@ -1,6 +1,6 @@
 body {
 	background-color: #FFFEF8;
-	background-image:url(images/optimizedbackgnd.jpg);
+	background-image:url(images/optback2.jpg);
 	color:#0e0e0e;
 	font-family:"Lucida Sans Unicode", "Lucida Grande",   	    sans-serif;
 	font-size: 14px;
@@ -18,8 +18,8 @@ body {
 }
 	
 #wrapper {
-	max-width: 1200px;
-	background-color:
+	max-width: 950px;
+	background-color: #ffffff;
 	margin-left: auto;
 	margin-right:auto;
 	padding-right: 30px;
@@ -46,8 +46,9 @@ h3 {font-family: 'Comfortaa', cursive;
 }
 	
 h4 {text-align:left;
-background:#6B229B;
+background: #0689C8;
 color:#ffffff;
+font-size:14px
 font-family: 'Comfortaa', cursive;}
 
 h5 {color: #403942;
@@ -70,16 +71,6 @@ a {background-color:#ffffff;
 	}
 	
 a:hover {background-color:#dcd1dd;}
-	
-
-
-		
-blockquote {
-	text-align: center;
-	color: #ffffef8;
-	font-family: 'Comfortaa', cursive;
-	font-size: 18px;
-}
 
 #footer {background-color: #DCD1DD;
 color:#000000;
@@ -123,14 +114,15 @@ padding:10px}
 }
 
 .mediumbox1 {max-width:50%;
-margin-right:10px
+margin-right:10px;
+margin-left:5px;
+float:left;
 }
 
 .mediumbox2 {max-width:50%;
-float:right;}
+float:left;}
 
-.pic {max-width:50%;
-float: right;}
+
 
 .boxicon{
 	width: 60px;
@@ -164,6 +156,15 @@ float:left}
 {font-size:75px;
 display;block}
 
+.left-sidebar {
+	width: 33.333333333%;
+	float: left;
+}
+
+.content {
+	width: 66.666666666%;
+	float: right;
+}
 
 /*
 *Media Queries

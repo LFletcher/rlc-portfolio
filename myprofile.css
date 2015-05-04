@@ -23,6 +23,9 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 	opacity: 50%;
+	text-align: left;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
 }
 	
 #wrapper {
@@ -64,6 +67,7 @@ font-family: 'Comfortaa', cursive;
 h5 {color: #ffffff;
 font-size:23px;
 font-family: 'Comfortaa', cursive;
+margin-left: 25px;
 
 }
 
@@ -208,6 +212,24 @@ display: none;}
 
 .accordion-header:hover{background:#222)}
 
+.submit {
+	background-color: #38D000;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 18px;
+	font-family: 'Comfortaa', cursive;
+	border-radius: 2px;
+	border-color: #827E7E;
+	margin-top: 20px;
+	margin-bottom:75px;
+	}
+	
+	
+
+.submitp {font-size:14px;}
+
+
+
 
 /*
 *Media Queries
@@ -220,4 +242,20 @@ display: none;}
 .smallboxfli {
 }
 .topheader {
+}
+.submit {
+}
+.psubmit {
+}
+.submitp {
+}
+.submiti {
+}
+.submiti {
+}
+.submitin {
+}
+.submitin {
+}
+.textearea1 {
 }

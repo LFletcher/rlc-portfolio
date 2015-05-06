@@ -43,9 +43,14 @@ html {
 	}
 
 .topheader {
-margin-left:135px;
-margin-top:30px;
+width: 100%;
 }
+
+.topheaderwrapper {
+margin-left:135px;
+padding-top:30px;
+}
+
 h2, h3 {
 	text-align: center;
 	font-size: 30px;
@@ -122,7 +127,6 @@ padding:5px}
 .smallboxf{color:#6B6060;
 	text-align: center;
 	width: 33%;
-	height: 200px;
 	float: left;
 	padding-top: 1px;
 	padding-bottom: 5px;
@@ -140,9 +144,15 @@ margin-right: none;
 float:left;
 }
 
+.mediumbox1 img{
+	width: 100%;}
+
 .mediumbox2 {width:64%;
 margin-left: 1%;
 float:left;}
+
+.mediumbox2 img{
+	width:100%}
 
 	
 .my-navigation {
@@ -183,10 +193,6 @@ float:left}
 	margin-top: 10px;
 }
 
-
-display;block; 			color: #262121;
-}
-
 .left-sidebar {
 	width: 66.666666666%;
 	float: left;}
@@ -195,6 +201,12 @@ display;block; 			color: #262121;
 	width: 33.333333333%;
 	float: left;
 }
+
+.half {
+	width: 50%;
+	float: left;
+}
+
 
 
 
@@ -273,4 +285,6 @@ font-size:14px;
 .aheader {
 }
 .aheader {
+}
+.aboutp {
 }
